@@ -2,7 +2,7 @@ var fs        = require('fs')
   , path      = require('path')
   , Sequelize = require('sequelize')
   , lodash    = require('lodash')
-  , sequelize = new Sequelize('sequelize_test', 'root', null, {
+  , sequelize = new Sequelize('raptroopdb', 'root', 'strongpassword', {
       dialect: "mysql", // or 'sqlite', 'postgres', 'mariadb'
       storage: "/tmp/my.db",
     })
